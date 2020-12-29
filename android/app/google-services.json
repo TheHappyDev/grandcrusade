@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "522068693839",
+    "firebase_url": "https://grandcrusade-99220.firebaseio.com",
+    "project_id": "grandcrusade-99220",
+    "storage_bucket": "grandcrusade-99220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522068693839:android:75076f38694e063a89eb3a",
+        "android_client_info": {
+          "package_name": "com.grandcrusade.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522068693839-erf04kck9vif0qkv9tqaqbcm18ne1lhj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grandcrusade.app",
+            "certificate_hash": "b871cdf55a909f0cd9b4c3596492d470bce54edc"
+          }
+        },
+        {
+          "client_id": "522068693839-1563tmu2gh0q5ef484pet9uc47amte71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMJmxHNHDzFt8lOvA3xkek1A0UHhfxIrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522068693839-1563tmu2gh0q5ef484pet9uc47amte71.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "522068693839-3lg7o9jjg7mq6bm5biq55vk312e6d5et.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.grandcrusade.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
