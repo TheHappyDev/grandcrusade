@@ -127,22 +127,21 @@ class MissionSelect extends StatelessWidget {
                       onTap: () {
                         this.callback(mission);
                       },
-                      child: Scrollable(
-                      child: Column(                        
+                      child: ListView(                        
                         children: [                      
                           Text(mission.name, style: Theme.of(context).textTheme.headline, textAlign: TextAlign.center,),
                           Text(mission.description, style: Theme.of(context).textTheme.body1),
-                          Spacer(),
+                          Spacer(flex: 5),
                           Text('Secondary', style: Theme.of(context).textTheme.headline, textAlign: TextAlign.center,),
                           Text(mission.secondary, style: Theme.of(context).textTheme.body1),
-                          Spacer(),
+                          Spacer(flex: 5),
                           Text('Scoring' ,style: Theme.of(context).textTheme.headline, textAlign: TextAlign.center,),
                           Text(mission.scoring, style: Theme.of(context).textTheme.body1),
-                          Spacer(),
+                          Spacer(flex: 5),
                           Text('Deployment' ,style: Theme.of(context).textTheme.headline, textAlign: TextAlign.center,),
                           Image.network(mission.imageUrl),
                         ],
-                      )))     
+                      ))     
                   )))
               .toList(),
         )));
